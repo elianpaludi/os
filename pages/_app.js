@@ -11,7 +11,7 @@ function MyApp({ Component, pageProps }) {
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
       </Head>
     
-    <SessionProvider
+    {/* <SessionProvider
       options={{
         staleTime: 0,
         refetchInterval: 0,
@@ -19,7 +19,7 @@ function MyApp({ Component, pageProps }) {
       session={pageProps.session}
       >
       <Component {...pageProps} />
-    </SessionProvider>
+    </SessionProvider> */}
       </div>
   );
 }
